@@ -9,5 +9,4 @@ services:
       - data_simpleapps:/apps
 volumes:
   data_simpleapps:
-    external:
-      name: local
+    driver: local
